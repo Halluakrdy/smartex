@@ -1,0 +1,129 @@
+{
+	"id": "0c0fd439-4fa3-4ebd-a3e5-78992d881b56",
+	"name": "API Test",
+	"timestamp": "2022-11-12T20:21:54.966Z",
+	"collection_id": "13773923-e2687f3b-b9b3-4d2b-a6e0-5be59ebbfbb1",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c3eddd46-373c-4097-8222-0d1991df7817",
+			"name": "Criar",
+			"url": "https://dummy.restapiexample.com/api/v1/create",
+			"time": 806,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Message should be sucess": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message should be sucess": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				806
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Message should be sucess": true
+				}
+			]
+		},
+		{
+			"id": "9571271b-325e-405d-b8d1-c11a358464df",
+			"name": "Validação",
+			"url": "https://dummy.restapiexample.com/api/v1/employee/3213",
+			"time": 673,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Message should be sucess": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message should be sucess": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				673
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Message should be sucess": true
+				}
+			]
+		},
+		{
+			"id": "ffade778-a557-4e2f-9d41-cee8aab03e75",
+			"name": "Deletar",
+			"url": "https://dummy.restapiexample.com/api/v1/delete/3213",
+			"time": 672,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Message should be sucess": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message should be sucess": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				672
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Message should be sucess": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2151,
+	"collection": {
+		"requests": [
+			{
+				"id": "c3eddd46-373c-4097-8222-0d1991df7817",
+				"method": "POST"
+			},
+			{
+				"id": "9571271b-325e-405d-b8d1-c11a358464df",
+				"method": "GET"
+			},
+			{
+				"id": "ffade778-a557-4e2f-9d41-cee8aab03e75",
+				"method": "DELETE"
+			}
+		]
+	}
+}
